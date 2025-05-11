@@ -1,0 +1,18 @@
+import wollok.game.*
+import niveles.*
+import mario.*
+import items.*
+import enemigos.*
+
+program elMonoConRabiaQueTiraBarrilesPeroAcaTiraFuego {
+	game.title("ñonki ñonk")
+	game.cellSize(50)
+	
+	game.height(15)
+	game.width(15)
+
+    game.boardGround("background3.png")
+
+	menu.iniciarMenu()
+	game.start()
+}
